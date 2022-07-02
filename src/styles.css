@@ -5,5 +5,60 @@ body {
     padding: 0;
     margin: 0;
     font-family: Roboto, sans-serif;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+}
+
+/*roman part styling - START*/
+/*
+.roman-legionary-backgroung {
+    background-image: url(img/roman-legionary.jpg);
+}
+*/
+
+#full-size-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -50;
+}
+
+body {
+
+    /* Ubicación de la imagen */
+
+    background-image: url(img/roman-legionary.jpg);
+
+    /* Para dejar la imagen de fondo centrada, vertical y
+    
+    horizontalmente */
+
+    background-position: center center;
+
+    /* Para que la imagen de fondo no se repita */
+
+    background-repeat: no-repeat;
+
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+    background-attachment: fixed;
+
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+    background-size: cover;
+
+    /* Se muestra un color de fondo mientras se está cargando la imagen
+    
+    de fondo o si hay problemas para cargarla */
+
+    background-color: rgb(228, 228, 226);
 
 }
+
+
+/*roman part styling - END*/
